@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend><strong>Informações do Livro </strong> </legend>
+            <label for="titulo">ID do livro </label>
+            <input type="text" id="titulo" name="titulo" required>
+            <br><br>
+    
+            <label for="data-emprestimo">Data do Empréstimo:</label>
+            <input type="date" id="data-emprestimo" name="data-emprestimo" required>
+            <br><br>
+        
+            <label for="data-devolucao">Data de Devolução Prevista:</label>
+            <input type="date" id="data-devolucao" name="data-devolucao" required>
+            <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend> <strong> Termos de Empréstimo </strong> </legend>
+            <p>O usuário é responsável pela guarda e conservação do livro emprestado. O livro deve ser devolvido nas mesmas condições em que foi emprestado.</p>
+            <p>O não cumprimento da data de devolução poderá resultar em multas e/ou restrições ao novo empréstimo até que a situação seja regularizada.</p>
+            <p>Em caso de perda, dano ou deterioração do livro, o usuário deverá arcar com o custo de reposição ou reparo conforme avaliado pela biblioteca.</p>
+            <p>O livro deve ser utilizado exclusivamente para fins de leitura pessoal e não deve ser emprestado a terceiros.</p>
+            
+            
+            <input type="checkbox" id="aceitar" name="aceitar" required>
+            <label for="aceitar"><strong> Eu li e aceito os termos acima. </strong> </label>
+            <button type="submit">Enviar</button>
+        </fieldset>
+        
+       
+        
+        </form>
+        <br> <br>
+        <button type="submit"><a href="biblioteca.html"> Página inicial </a></button>
+       
+</body>
+</html>

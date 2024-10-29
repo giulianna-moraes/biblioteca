@@ -1,0 +1,94 @@
+
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    </head>
+        <body>
+            <header>
+                <h2>Faça seu cadastro!</h2>
+                
+                <form method="post" action="#">
+                  <fieldset>
+                    <legend>Dados pessoais</legend>
+                      <label>Nome</label>
+                      <input type="text" name="nome" placeholder="digite seu nome" required>
+                      <label>Data de Nascimento</label>
+                      <input type="date" name="data_nascimento" required>
+                      <label>Telefone</label>
+                      <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                      <label>CPF </label>
+                      <input type="cpf" name="cpf" placeholder="(XX) XXXXX-XXXX" required>
+                      <label>Email</label>
+                      <input type="email" name="email" placeholder="a@a.com" required>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Endereço</legend>
+                      <label>Endereço: </label>
+                      <input type="text" name="endereco" placeholder="Digite seu endereço" required>
+                      <label>Cidade: </label>
+                      <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+                      <label>Estado: </label>
+<select name="Estado">
+    <option value="ac">Acre</option>
+    <option value="al">Alagoas</option>
+    <option value="ap">Amapá</option>
+    <option value="am">Amazonas</option>
+    <option value="ba">Bahia</option>
+    <option value="ce">Ceará</option>
+    <option value="df">Distrito Federal</option>
+    <option value="es">Espírito Santo</option>
+    <option value="go">Goiás</option>
+    <option value="ma">Maranhão</option>
+    <option value="mt">Mato Grosso</option>
+    <option value="ms">Mato Grosso do Sul</option>
+    <option value="mg">Minas Gerais</option>
+    <option value="pa">Pará</option>
+    <option value="pb">Paraíba</option>
+    <option value="pr">Paraná</option>
+    <option value="pe">Pernambuco</option>
+    <option value="pi">Piauí</option>
+    <option value="rj">Rio de Janeiro</option>
+    <option value="rn">Rio Grande do Norte</option>
+    <option value="rs">Rio Grande do Sul</option>
+    <option value="ro">Rondônia</option>
+    <option value="rr">Roraima</option>
+    <option value="sc">Santa Catarina</option>
+    <option value="sp">São Paulo</option>
+    <option value="se">Sergipe</option>
+    <option value="to">Tocantins</option>
+</select>
+
+                  </fieldset>
+                 
+                  <fieldset>
+                    <legend>Deixe alguma observação </legend>
+                    <textarea name="nome" rows=2 cols=20 required> </textarea>
+                  </fieldset>
+                  <fieldset>
+                    <legend><strong>Termos de Contrato</strong></legend>
+                <hr>
+                            <h4>Responsabilidade pelo Livro</h4>
+                            <p>O usuário é responsável pela guarda e conservação do livro emprestado. O livro deve ser devolvido nas mesmas condições em que foi emprestado.</p>
+                            <h4>Atrasos e Multas</h4>
+                            <p>O não cumprimento da data de devolução poderá resultar em multas e/ou restrições ao novo empréstimo até que a situação seja regularizada.</p>
+                        
+                            <h4>Perda ou Danos</h4>
+                            <p>Em caso de perda, dano ou deterioração do livro, o usuário deverá arcar com o custo de reposição ou reparo conforme avaliado pela biblioteca.</p>
+                        
+                            <h4>Uso Apropriado</h4>
+                            <p>O livro deve ser utilizado exclusivamente para fins de leitura pessoal e não deve ser emprestado a terceiros.</p>
+                        </p> <hr>
+                     <input type="checkbox" id="checkbox-sim" name="contrato" value="sim"/>
+                     <label for="checkbox-aceito">Aceito os termos de contrato</label>
+                     <input type="checkbox" id="checkbox-nao" name="contrato" value=nao"/>
+                     <label for="checkbox-noticias">Aceito receber noticias </label>
+                    <button type="submit">Enviar</button>
+                    </form>
+                    </fieldset>
+                    <button type="submit"><a href="biblioteca.html"> Página inicial </a></button>
+
+                   
+                  </body>
+                  </html>
